@@ -1,0 +1,52 @@
+[
+  {
+    "productName": "Italian brogues",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/65850728dcdc7fa1686ee103_Cat2.png",
+    "price": "$40",
+    "size": "43"
+  },
+  {
+    "productName": "Monkstrap",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/65850918b8246fa5161ac4ae_Cat5.png",
+    "price": "$80",
+    "size": "43"
+  },
+  {
+    "productName": "Birkenstock",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/65850728dcdc7fa1686ee103_Cat2.png",
+    "price": "$100",
+    "size": "45"
+  },
+  {
+    "productName": "Women's Footwear",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/658507163a0e8566e24f0d0f_Cat3.png",
+    "price": "$46",
+    "size": "41"
+  },
+  {
+    "productName": "Spanish brogues",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/65850728dcdc7fa1686ee103_Cat2.png",
+    "price": "$40",
+    "size": "43"
+  },
+  {
+    "productName": "jeru Sandals",
+    "category": "Mens Footwear",
+    "avatar": "https://cdn.prod.website-files.com/650ec38652a92600b895459e/65850728dcdc7fa1686ee103_Cat2.png",
+    "price": "$200",
+    "size": "46"
+  },
+  {
+    "id": "674480ad0f756290dd4ebd64",
+    "productName": "Wedge",
+    "category": "Mens Footwear",
+    "avatar": "",
+    "price": "$87",
+    "size": "42"
+  }
+]
