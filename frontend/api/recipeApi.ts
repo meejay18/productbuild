@@ -7,3 +7,8 @@ export const createRecipe = async (data: {}) => {
     return res.data;
   });
 };
+export const getAllRecipes = async (data: {}) => {
+  return axios.post(`${url}/get-all-recipes`).then((res) => {
+    return res.data;
+  });
+};
