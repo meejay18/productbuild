@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import musicAppModel from "../../musicModel/musicAppModel";
-import playListModel from "../../musicModel/playListModel";
+import musicAppModel from "../../model/musicModel/musicAppModel";
+import playListModel from "../../model/musicModel/playListModel";
 
 export const searchSongs = async (
   req: Request,

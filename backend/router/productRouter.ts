@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createProduct } from "../controller/productController";
-import { addNewProduct } from "../controller/productController";
+import { createProduct } from "../controller/shoeController/productController";
+import { addNewProduct } from "../controller/shoeController/productController";
 
 const router: any = Router();
 
