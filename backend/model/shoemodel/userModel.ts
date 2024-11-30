@@ -8,4 +8,20 @@ interface iUser {
 
 interface iUserData extends iUser, Document {}
 
-const userModel = new Schema<iUserData>({});
+const userModel = new Schema<iUserData>(
+  {
+    username: {
+      type: String,
+    },
+    password: {
+      type: String,
+    },
+    email: {
+      type: String,
+      unique: true,
+    },
+  },
+  { timestamps: true }
+);
+
+export default model<iUserData>("user", userModel);
