@@ -55,3 +55,24 @@ export const loginUser = async (req: Request, res: Response) => {
     });
   }
 };
+
+export const forgetUserPassword = async (req: Request, res: Response) => {
+  try {
+    const { email } = req.body;
+    const user = await userModel.findOne({ email });
+    if (user) {
+      return res.status(200).json({
+        message: "A message has been sent to your email address",
+      });
+    } else {
+      return res.status(404).json({
+        message: "No user with the email in our database",
+      });
+    }
+  } catch (error) {
+    return res.status(404).json({
+      message: "Error",
+      status: 404,
+    });
+  }
+};

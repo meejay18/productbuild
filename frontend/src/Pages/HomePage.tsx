@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../data.json";
+import CardComponents from "../Components/CardComponents";
 
 const HomePage = () => {
   return (
@@ -35,6 +36,7 @@ const HomePage = () => {
           ))}
         </div>
       </div>
+      <CardComponents />
     </div>
   );
 };
